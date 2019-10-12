@@ -1,0 +1,55 @@
+.body {
+  background-color: #fdde7e;
+}
+
+.section {
+  min-width: 200px;
+  max-width: 1500px;
+  margin: 200px;
+  text-align: center;
+}
+
+.list li {
+  display: inline-block;
+  width: 30%;
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 30px;
+  border-radius: 2%;
+  max-width: 360px;
+}
+
+.list li span {
+  text-align: center;
+}
+
+.price {
+  padding-top: 20px;
+  font-size: 70px;
+}
+
+.list {
+  text-align: center;
+  font-size: 0px;
+}
+
+.img {
+  margin-top: 50px;
+}
+
+.section .Gold {
+  height: 470px;
+  margin-top: 30px;
+}
+
+.section .Bronze {
+  height: 440px;
+}
+
+.section .Silver {
+  height: 440px;
+}
+
+.under {
+}
