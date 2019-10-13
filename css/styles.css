@@ -17,7 +17,6 @@
 }
 
 .list li {
-  display: inline-block;
   width: 30%;
   background-color: aliceblue;
   text-align: center;
@@ -39,21 +38,34 @@
 .list {
   text-align: center;
   font-size: 0px;
+  display: flex;
 }
 
 .img {
   margin-top: 50px;
+  margin-bottom: 40px;
+  max-width: 134px;
+  max-height: 135px;
 }
 
-.section .Gold {
-  height: 470px;
-  margin-top: 30px;
+.place {
+  margin-bottom: 20px;
 }
 
-.section .Bronze {
-  height: 440px;
+.Gold {
+  min-height: 490px;
+  height: 490px;
+  flex-basis: 490px;
 }
 
-.section .Silver {
-  height: 440px;
+.Silver {
+  max-height: 440px;
+}
+
+.Bronze {
+  max-height: 440px;
+}
+
+.Gold-cup {
+  height: 490px;
 }
