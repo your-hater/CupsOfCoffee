@@ -1,3 +1,7 @@
+:root {
+  --font: "Muli", sans-serif;
+}
+
 .body {
   background-color: #fdde7e;
 }
@@ -7,6 +11,8 @@
   max-width: 1500px;
   margin: 200px;
   text-align: center;
+  font-family: var(--font);
+  justify-content: space-between;
 }
 
 .list li {
@@ -50,4 +56,3 @@
 .section .Silver {
   height: 440px;
 }
-
